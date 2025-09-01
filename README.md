@@ -1,5 +1,7 @@
 # AI知识卡片生成器
 
+[图片预览](./public/知识卡片-Next.js%20Fetch%20API-1%20(1).png)
+
 基于Claude AI的智能知识卡片生成工具，能够将任意文章内容转换为精美的可视化知识卡片。
 
 ## ✨ 功能特点
@@ -149,4 +151,4 @@ explain-cards/
 - [OpenAI SDK](https://github.com/openai/openai-node) - 使用的SDK库
 - [Next.js](https://nextjs.org/) - React框架
 - [Tailwind CSS](https://tailwindcss.com/) - CSS框架
-- [html2canvas](https://html2canvas.hertzen.com/) - 截图工具
+- [snapdom](https://github.com/zumerlab/snapdom/) - 截图工具

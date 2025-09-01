@@ -40,11 +40,11 @@ npm install
 
 ```bash
 # 复制环境变量模板
-cp .env.example .env
-
-# 编辑 .env 文件，填入您的DeepSeek配置信息
-OPENAI_API_KEY=your_deepseek_api_key_here
-OPENAI_BASE_URL=https://api.deepseek.com/v1
+# 国内使用 claude code 有点麻烦，我使用的是 aicodemirror.com 的镜像，可以通过下列邀请链接注册，你我均可获得积分奖励，介意的话，直接把 invotecode 部分去掉即可😂
+# https://www.aicodemirror.com/register?invitecode=1EYY2S
+ANTHROPIC_BASE_URL=https://api.aicodemirror.com/api/claudecode
+ANTHROPIC_API_KEY=
+ANTHROPIC_AUTH_TOKEN=
 ```
 
 ### 4. 启动开发服务器
